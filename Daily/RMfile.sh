@@ -1,4 +1,6 @@
 #! /bin/bash
+# 输入 bash RMfile.sh YOUR_DIR_NAME 运行文本
+# 使用前需要修改字符串
 function read_dir(){
 for file in `ls $1` #注意此处这是两个反引号，表示运行系统命令
 do
